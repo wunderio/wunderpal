@@ -15,3 +15,15 @@ http://extensionizr.com/
 2. enable extension in chrome by activating the developer mode here:
 chrome://extensions/
 and load unpacked extension from disk
+
+GIT-Tag v0.0.2
+
+3. More info about building a chrome extension can be found here:
+http://code.tutsplus.com/tutorials/developing-google-chrome-extensions--net-33076
+
+4. Create a (backup) data store with an api that can be used by angularJS. We use Google spreadsheets and the Google script api. [http://www.google.com/script/start/](http://www.google.com/script/start/)
+The script is saved in this repo /js/Code.gs for reference
+The spreadsheet that acts as a data store/source is
+https://docs.google.com/a/wunderkraut.com/spreadsheets/d/1ktfyqSrFXYwlYOV4qvesAfZjccfrex_ZIxEqY67HRd0/edit?usp=sharing
+
+
