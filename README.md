@@ -28,4 +28,4 @@ The spreadsheet that acts as a data store/source is
 At the moment we still have to figure out if we can integrate this as a service or if we have to use the public spreadsheets api
 
 5. Set up the angular project folder structure and build the app with npm/bower
-6. Create two branches: one for ES5 with browserify, one for ES& + ATscript transpiled with traceur
+6. Create two branches: one for ES5 with browserify, one for ES6 + ATscript transpiled with traceur
