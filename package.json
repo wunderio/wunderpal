@@ -1,0 +1,25 @@
+{
+  "name": "wunderpal",
+  "version": "0.0.2",
+  "description": "A chrome extension for Wunderpeople",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wunderkraut/wunderpal.git"
+  },
+  "keywords": [
+    "angular",
+    "chrome",
+    "extension",
+    "Drupal"
+  ],
+  "author": "Andreas Sahle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wunderkraut/wunderpal/issues"
+  },
+  "homepage": "https://github.com/wunderkraut/wunderpal"
+}

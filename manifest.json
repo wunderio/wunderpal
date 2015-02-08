@@ -1,8 +1,8 @@
 {
   "name": "wunderpal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
+  "description": "Extension for Wunderpeople browsing Drupal.org",
   "homepage_url": "http://wunderkraut.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -25,22 +25,31 @@
     "clipboardRead",
     "clipboardWrite",
     "http://drupal.org/*",
-    "https://drupal.org/*"
+    "https://drupal.org/*",
+    "http://www.drupal.org/*",
+    "https://www.drupal.org/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://drupal.org/*"
+        "https://drupal.org/*",
+        "http://drupal.org/*",
+        "https://www.drupal.org/*",
+        "http://www.drupal.org/*"
       ],
       "css": [
+        "bower_components/angular-material/angular-material.min.css",
         "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://drupal.org/project/*"
       ],
       "js": [
+        "bower_components/angular/angular.min.js",
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/angular-animate/angular-animate.min.js",
+        "bower_components/angular-aria/angular-aria.min.js",
+        "bower_components/angular-material/angular-material.min.js",
+        "bower_components/angular-material-icons/angular-material-icons.min.js",
+        "bower_components/angular-messages/angular-messages.min.js",
+        "bower_components/ui-router/release/angular-ui-router.min.js",
         "src/inject/inject.js"
       ]
     }

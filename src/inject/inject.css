@@ -1,3 +1,50 @@
 /**
  * Place your custom CSS styles here.
  **/
+
+body {
+  margin-top: 64px !important;
+  display: block !important;
+}
+body.has-sidebar {
+  padding-right: 300px;
+  margin-left: -300px;
+}
+
+md-toolbar {
+  background: #88b700;
+}
+md-toolbar h1 {
+  color: white;
+}
+.wunderpal-toolbar {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  color: white;
+}
+
+body.has-sidebar .wunderpal-toolbar {
+  padding-right: 300px;
+}
+
+.wunderpal-sidebar {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 300px;
+  height: 100%;
+  z-index: 1000;
+  background: #EEEEEE;
+}
+
+.wunderpal-sidebar.is-open {
+  left: auto;
+  right: 0;
+  box-shadow: inset 1px 0 2px rgba(66,66,66, .6);
+}
